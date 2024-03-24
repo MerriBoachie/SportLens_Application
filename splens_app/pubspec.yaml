@@ -39,6 +39,16 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_reactive_ble: ^5.3.1
+  flutter_blue_plus: ^1.31.15
+  http: any
+  flutterflow_ui: ^0.2.0+1
+  font_awesome_flutter: ^10.1.0
+  aligned_dialog: ^0.0.7
+  url_strategy: ^0.2.0
+  dio: ^5.4.1
+  webview_flutter: ^4.7.0
+  web_socket_channel: ^2.4.4
+  video_player: ^2.8.3
   
 
 dev_dependencies:

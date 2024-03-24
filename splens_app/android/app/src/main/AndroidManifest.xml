@@ -1,13 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-            <uses-permission android:name="android.permission.BLUETOOTH" />  
-	        <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />  
-	        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>  
-            <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+            <!-- Required to fetch data from the internet. -->
+            <uses-permission android:name="android.permission.INTERNET" />
+
   
     <application
         android:label="splens_app"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
